@@ -53,6 +53,15 @@ export default () => {
           <MovieSection key={key} title={item.title} items={item.items} />
         ))}
       </section>
+
+      <footer>
+        Feito com{' '}
+        <span role="img" aria-label="coração">
+          ❤️
+        </span>{' '}
+        por Bruno Nowk - Direitos de imagem para Netflix - Dados pegos do site
+        themovidedb.org
+      </footer>
     </div>
   );
 };
