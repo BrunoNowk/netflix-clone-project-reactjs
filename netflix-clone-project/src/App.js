@@ -62,6 +62,15 @@ export default () => {
         por Bruno Nowk - Direitos de imagem para Netflix - Dados pegos do site
         themovidedb.org
       </footer>
+
+      {movieList.length <= 0 && (
+        <div className="loading">
+          <img
+            src="https://www.metageek.com/img/buffering-800px.gif"
+            alt="carregando"
+          />
+        </div>
+      )}
     </div>
   );
 };
